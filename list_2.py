@@ -132,20 +132,3 @@ class LinkedList:
             prev = cur_node
             cur_node = next
         self.head = prev
-
-
-my_list = LinkedList()
-
-my_list.append(2)
-my_list.append(4)
-my_list.append(8)
-my_list.append(16)
-
-
-my_list.show()
-
-my_list.reverse()
-
-my_list.show()
-
-
